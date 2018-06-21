@@ -104,6 +104,6 @@ class CompaniesController extends Controller
 
         }
 
-        return back()->withInput()->with('error', 'You cannot delete this company currently')
+        return back()->withInput()->with('error', 'You cannot delete this company currently');
     }
 }
